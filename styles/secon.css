@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+
+hr{
+    border: solid 1px black;
+}
+nav{
+    padding: 5px;
+    background-color: rgb(214, 248, 248);
+}
+
+#nav-bar ul{
+    display: grid;
+    grid-template-columns:30% auto auto auto auto auto 15%;
+}
+
+/* ul li{
+    display: inline;
+    color: navy;
+} */
+
+#nav-bar a{
+    color: darkblue;
+}
+#nav-bar a:hover{
+    background-color: blue;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 25px;
+    transition: background-color 1s;
+}
+
+#rd{
+    color: aqua;
+    font-weight: bold;
+}
+
+#jc{
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 0 5px;
+}
+
+h3{
+    padding: 0 0 10px 0;
+}
+p{
+    padding: 10px 0 0 0;
+}
+#main-1, #main-2, #main-3{
+    display: flex;
+    padding: 40px;
+}
+#cont-1, #cont-3, #cont-2{
+    flex-basis: 70%;
+    /* flex-grow: 2; */
+}
+#pic-1, #pic-3{
+    padding: 0 0 0 60px;
+}
+#main-2{
+    flex-flow: row-reverse;
+}
+#pic-2{
+    padding: 0 60px 0 0;
+}
+#test-1{
+    background-color: black;
+    transform: 360 deg;
+    transition: transform 4s;
+}
+
+#block-1{
+    display: flex;
+    background-color: rgb(203, 219, 100);
+    padding: 0 20px 0 40px;
+}
+#sec-1{
+    padding: 40px 0 0 0;
+    flex-basis: 60%;
+}
+#sec-2{
+    flex-basis: 40%;
+    padding-left: 20px;
+    display: flex;
+    /* align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center; */
+}
+#form-1{
+    background-color: rgb(147, 194, 54, 90%);
+}
+#form-1 input{
+    text-align: center;
+}
+
+#tab-1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+#page-main{
+    font-family: cursive;
+}
+#page-li1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}
+#page-li1 li{
+    color: blue;
+}
+#page-li2{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+}
+#page-li2 li{
+    color: black;
+}
